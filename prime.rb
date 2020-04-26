@@ -1,9 +1,6 @@
 
-def prime?(integer)
-    i = 2
-     while i < (integer)
-  return false if integer % i == 0 && integer <= 1
-          i += 1
-    end
+def prime?(num)
+    return false if !num.integer?
+    
     true
 end
